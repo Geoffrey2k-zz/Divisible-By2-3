@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main ()
+{
+int number;
+
+printf("Enter No To Check Divisibility \n");
+scanf("%d", &number);
+
+if ( number % 6 == 0 )
+   {
+    printf("The Number Is Divisible By 2 & 3 \n");
+   }
+    else 
+        {
+         printf("The Number Is Not Divisible By 2 & 3 \n");
+        }
+return 0;
+}
